@@ -1,11 +1,18 @@
 import React from "react";
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+
 import "assets/scss/style.scss";
-import Button from "./index.js";
+// import Button from "./index.js";
+import LandingPage from "pages/LandingPage.js";
 
 function App() {
   return (
     <div className="App">
-      <Button></Button>
+      <Router>
+        <Route path="/" component={LandingPage}>
+
+        </Route>
+      </Router>
     </div>
   );
 }
