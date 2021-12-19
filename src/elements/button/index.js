@@ -25,8 +25,8 @@ export default function Button(props) {
             <span className="sr-only">Loading...</span>
           </>
         ) : (
-          props.children
-        )}
+            props.children
+          )}
       </span>
     );
   }

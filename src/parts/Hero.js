@@ -6,6 +6,7 @@ import IconCities from 'assets/images/icons/ic_cities.svg'
 import IconTraveler from 'assets/images/icons/ic_traveler.svg'
 import IconTreasure from 'assets/images/icons/ic_treasure.svg'
 
+
 import Button from 'elements/Button'
 import formatNumber from "utils/formatNumber";
 
